@@ -31,7 +31,7 @@ public class LangManager implements LangService {
 
         for (Lang lang : langs) {
             GetAllLangResponse responseItem = new GetAllLangResponse();
-            responseItem.setId(lang.getId());
+            //responseItem.setId(lang.getId());
             responseItem.setName(lang.getName());
             langResponses.add(responseItem);
         }

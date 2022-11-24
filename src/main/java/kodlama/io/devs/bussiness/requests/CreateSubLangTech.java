@@ -1,16 +1,13 @@
-package kodlama.io.devs.bussiness.responses;
-
+package kodlama.io.devs.bussiness.requests;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class GetAllTestToolResponse {
-
-   // private int id;
+@AllArgsConstructor
+public class CreateSubLangTech {
+    private String LangName;
     private String name;
 }
-
